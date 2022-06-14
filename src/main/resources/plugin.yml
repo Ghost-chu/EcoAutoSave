@@ -1,0 +1,11 @@
+name: EcoAutoSave
+version: '${project.version}'
+main: com.ghostchu.ecoautosave.EcoAutoSave
+api-version: 1.13
+depend: [ eco ]
+description: Eco plugin data auto save during server running
+commands:
+  ecoautosave:
+    usage: /ecoautosave
+    description: Save all data to disk or reload
+    permission: ecoautosave.admin
